@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="borders-1080.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="0.51203704"
+     inkscape:cx="959.8915"
+     inkscape:cy="539.02351"
+     inkscape:window-width="1916"
+     inkscape:window-height="1041"
+     inkscape:window-x="1366"
+     inkscape:window-y="18"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid824" />
+    <sodipodi:guide
+       position="900,1080"
+       orientation="0,-1"
+       id="guide826" />
+    <sodipodi:guide
+       position="980,0"
+       orientation="0,-1"
+       id="guide828" />
+    <sodipodi:guide
+       position="0,620"
+       orientation="1,0"
+       id="guide830" />
+    <sodipodi:guide
+       position="1920,460"
+       orientation="1,0"
+       id="guide832" />
+    <sodipodi:guide
+       position="960,960"
+       orientation="1,0"
+       id="guide944" />
+    <sodipodi:guide
+       position="540,1020"
+       orientation="0,-1"
+       id="guide1026" />
+    <sodipodi:guide
+       position="820,940"
+       orientation="0,-1"
+       id="guide1028" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:15;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 0,140 960,940 960,-940"
+       id="path1063" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:15;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 1920,60 920,1040"
+       id="path1065" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:15;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 0,60 1000,980"
+       id="path1067" />
+  </g>
+</svg>
