@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="2560"
+   height="1440"
+   viewBox="0 0 2560 1440"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="borders-2k.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="0.38402778"
+     inkscape:cx="1279.8553"
+     inkscape:cy="718.69801"
+     inkscape:window-width="1916"
+     inkscape:window-height="1041"
+     inkscape:window-x="1366"
+     inkscape:window-y="18"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid824" />
+    <sodipodi:guide
+       position="0,1440"
+       orientation="1,0"
+       id="guide826" />
+    <sodipodi:guide
+       position="2560,1200"
+       orientation="1,0"
+       id="guide828" />
+    <sodipodi:guide
+       position="360,1440"
+       orientation="0,-1"
+       id="guide830" />
+    <sodipodi:guide
+       position="720,0"
+       orientation="0,-1"
+       id="guide832" />
+    <sodipodi:guide
+       position="1280,1000"
+       orientation="1,0"
+       id="guide834" />
+    <sodipodi:guide
+       position="1720,1360"
+       orientation="0,-1"
+       id="guide836" />
+    <sodipodi:guide
+       position="200,1240"
+       orientation="0,-1"
+       id="guide959" />
+    <sodipodi:guide
+       position="1720,120"
+       orientation="0,-1"
+       id="guide961" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:25;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 0,200 1280,1440"
+       id="path1029" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:25;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 2560,200 1280,1440"
+       id="path1031" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:25;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 0,80 1360,1360"
+       id="path1100" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:25;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 2560,80 1200,1360"
+       id="path1102" />
+  </g>
+</svg>
