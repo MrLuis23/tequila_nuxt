@@ -17,7 +17,7 @@
               color="primary"
               dark
             >Opening from the top</v-toolbar> -->
-            <v-card-text class="white--text text-center pt-lg-4 pt-md-4 pt-sm-3">
+            <v-card-text class="black--text text-center pt-lg-4 pt-md-4 pt-sm-3">
               <div class="px-md-16 px-sm-1 text-lg-h4 text-md-h4 text-sm-h5 text-center portrait-title">                
                 Gracias por su interés
                 <v-spacer></v-spacer>
@@ -33,31 +33,29 @@
                 <v-btn
                   class="mx-2"
                   fab
-                  color="white"
+                  color="transparent"
                   small
                   >
-                  <v-icon x-large>
+                  <v-icon x-large color="black"> 
                     mdi-facebook
                   </v-icon>
                 </v-btn>
                 <v-btn
                   class="mx-2"
-                  fab
-                  
+                  fab                  
                   small
-                  color="white"
+                  color="transparent"
                   >
-                  <v-icon  x-large>
+                  <v-icon x-large color="black">
                     mdi-instagram
                   </v-icon>
                 </v-btn>
                 <v-btn
                   class="mx-2"
-                  fab
-                  
+                  fab                  
                   small
-                  color="white">
-                  <v-icon dark x-large>
+                  color="transparent">
+                  <v-icon dark x-large color="black">
                     mdi-youtube
                   </v-icon>
                 </v-btn>
@@ -109,7 +107,8 @@ export default {
       border-image-slice: 1;
     }
     .modal{
-      background-color: rgba(46,45, 44) !important;
+      /* background-color: rgba(46,45, 44) !important; */
+      background-image: linear-gradient(to right, rgb(232,165,0),rgb(59,41,5));
 
     }
 /*End General */
