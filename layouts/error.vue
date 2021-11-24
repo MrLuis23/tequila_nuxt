@@ -1,6 +1,12 @@
 <template>
-  <v-app dark>
-    <h1 v-if="error.statusCode === 404">
+  <v-app>     
+    <v-img
+      lazy-src="https://picsum.photos/id/11/10/6"
+      max-height="150"
+      max-width="250"
+      src="https://picsum.photos/id/11/500/300"
+    ></v-img>
+    <h1 v-if="error.statusCode === 404" style="color:white;">
       {{ pageNotFound }}
     </h1>
     <h1 v-else>
@@ -14,7 +20,7 @@
 
 <script>
 export default {
-  layout: 'empty',
+  layout: 'error',
   props: {
     error: {
       type: Object,

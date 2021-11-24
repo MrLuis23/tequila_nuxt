@@ -1,9 +1,12 @@
 import colors from 'vuetify/es5/util/colors'
+const pkg = require('./package')
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
-  target: 'static',
-
+  // target: 'static',  
+  target: 'server',  
+  ssr: true,
+  // serverMiddleware: ['~/server-middleware/override404'],
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - Adelan Tequila',
@@ -20,7 +23,7 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
-  },
+  }, 
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
@@ -41,6 +44,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '~/modules/writeRoutesToFile'
   ],
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
@@ -64,5 +68,9 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+  // generate: {
+  //   fallback: '404.html'
+  // }
+
 }

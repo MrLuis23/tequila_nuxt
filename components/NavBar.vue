@@ -1,27 +1,29 @@
 <template>
-    <v-container height="100vh" width="100vw" class="navbar pa-0" fluid>
-        <v-navigation-drawer v-model="sidebar" right height="100vh" absolute temporary dark class="white--text">
+    <v-container class="navbar pa-0" fluid>
+        <v-navigation-drawer v-model="sidebar" right height="100vh" absolute temporary dark class="white--text" >
             <v-list>          
             <v-list-item  v-for="item in menuItems" :key="item.item" :to="item.path">            
-                <v-list-item-content class="pl-5 custom white--text text-sm-caption text-capitalize text-xs-caption"
+                <v-list-item-content class="pl-5 custom white--text text-sm-caption text-capitalize text-xs-caption styled"
                 >{{ item.lbl }}</v-list-item-content>
             </v-list-item>
             </v-list>
         </v-navigation-drawer>   
-        <v-toolbar color="transparent" class="black--text toolbarContainer" flat  >
+    <v-toolbar  class="black--text toolbarContainer" flat height="130%" color="black">
             <v-toolbar-items>
                 <nuxt-link to="/home" style="cursor: pointer">
-                    <v-responsive  :width="width" class="pt-sm-3 pt-xs-2">
+                    <v-responsive  :width="width" class="d-flex align-center">
                         <v-img src="/images/logo-alt(sm).png" :contain="true" width="100%" height="100%"/>
                     </v-responsive>                        
                 </nuxt-link>
             </v-toolbar-items>
             <v-spacer></v-spacer>
-            <v-toolbar-items class="hidden-sm-and-down">
+            <v-toolbar-items class="hidden-sm-and-down" >
                 <v-container class="d-flex flex-wrap" fluid pa-0>                
                     <v-btn
-                    color="transparent" 
+                    color="black" 
+                    v-ripple="false"
                     active-class="active-link"    
+                    tile
                     bottom
                     class="white--text text-xl-h4 text-lg-h6 text-md-h6 text-sm-subtitle-2 text-xs-subtitle-2 mt-6 ml-6 pt-13 pb-6 px-1"
                     v-for="item in menuItems"
@@ -32,26 +34,10 @@
                     </v-btn>                    
                 </v-container>
             </v-toolbar-items>            
-            <div class="d-flex flex-column justify-center social-media px-4 show-lg-and-down">
+            <div class="d-flex  align-center justify-center  px-4 show-lg-and-down">
                 <v-app-bar-nav-icon color="black" fab small class="hidden-md-and-up menuIcon" 
-                @click="sidebar = !sidebar" />        
-                <v-btn small fab class="pa-1" color="white">
-                    <v-icon large color="black" >
-                    mdi-facebook
-                    </v-icon>
-                </v-btn>                
-                <v-btn small fab pa-1 color="white">
-                    <v-icon  large color="black">
-                        mdi-instagram
-                    </v-icon>
-                </v-btn>
-                <v-btn small fab class="pa-2" color="white">
-                    <v-icon dark large color="black">
-                        mdi-youtube
-                    </v-icon>
-                </v-btn>
-            </div>
-            
+                @click="sidebar = !sidebar" />                    
+            </div>            
         </v-toolbar>
     </v-container>
 </template> 
@@ -63,11 +49,11 @@ export default {
             sidebar: false,
             appitem: "Tequila",
             menuItems: [
-                {path: "/home", lbl: "inicio", icon : ""},
-                {path: "/history", lbl: "historia", icon: ""},
-                {path:"/products", lbl: "nuestros tequilas", icon: ""},
-                {path: "/gallery", lbl: "galeria", icon: ""},          
-                {path:"/events", lbl: "eventos especiales", icon: ""}
+                {path: "/home/#top", lbl: "inicio", icon : ""},
+                {path: "/home/#history", lbl: "historia", icon: ""},
+                {path:"/home/#products", lbl: "nuestros tequilas", icon: ""},
+                {path: "/home/#gallery", lbl: "galeria", icon: ""},          
+                {path:"/home/#events", lbl: "eventos especiales", icon: ""}
             ],
         }
     },
@@ -82,7 +68,7 @@ export default {
                     w_img = 360 / 1.5;
                 break;
                 case 1366:
-                    w_img = 1366 / 4;
+                    w_img = 1366 / 5;
                 break;
                 case 1920:
                     w_img = 1920 / 5;
@@ -96,6 +82,19 @@ export default {
 }
 </script>     
 <style scoped>
+    /* .theme--dark.v-btn--active:active  {
+        opacity: 1 !important;
+        background-color: blue;
+    }  */
+    .styled{
+        background-image: linear-gradient(to right, rgb(232,165,0),rgb(59,41,5)) !important; 
+        background-size: contain;
+        /* background-image: linear-gradient(60deg, #8500ff, #ff8100) !important; */
+        color: black;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -webkit-box-decoration-break: clone;
+    }    
     .menuIcon{
         background-color: white;
     }
@@ -104,9 +103,7 @@ export default {
         position: relative;
         top:2.3em ;
     }
-    .navbar{
-        width:100vw;
-        height: 100vh;
+    .navbar{        
         position: fixed;        
         top: 0;
         z-index: 2;
@@ -115,7 +112,7 @@ export default {
         border: 0px;
     }
     /* .v-sheet.v-toolbar:not(.v-sheet--outlined){
-        box-shadow: unset;
+        box-shadow: 2px 2px 2px #1a1a1a !important;;
         border: 0px;
     } */
     .v-btn--is-elevated{
@@ -138,9 +135,9 @@ export default {
         color: white !important;
         border-bottom:3px;
         border-bottom-color: white !important;
-
         background-color: unset;
-    }
+    } 
+        
     .theme--light.v-btn--active:hover::before, .theme--light.v-btn--active::before {
         opacity: 1;
     }
@@ -149,6 +146,10 @@ export default {
         background-color: unset;            
         opacity: 0;
         border-bottom-style: solid; 
+    }
+
+    .v-btn--active{
+        background-color: transparent;
     }
     
     /* smartphones, iPhone, portrait 480x320 phones */ 

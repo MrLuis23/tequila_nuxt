@@ -1,7 +1,6 @@
 <template>
-    <div class="bg-img">
-        
-        <v-container class="d-flex flex-column header"  width="100vw" pa-0 fluid>
+    <div class="">        
+        <v-container class="d-flex flex-column"  width="100vw" pa-0 fluid>
             <v-container class="d-flex justify-center" width="100vw" fluid pa-0>            
                 <v-img src="images/logo(sm)-min.png" :contain="true" width="100vw"
                     class="logo pa-0">
@@ -98,7 +97,8 @@ export default {
     .header{
         width: 100vw;
         height: 100vh;
-        background-image: url("../static/images/header-border(1080p)-min.png");
+        /* background-image: url("../static/images/header-border(1080p)-min.png"); */
+        background-image: url("../static/images/header-border(720pB).png");
         background-size: 100vw 100vh;
     }    
     .dialog{
@@ -200,7 +200,7 @@ only screen and (max-device-width: 2436px) and (max-height: 1125px) and (orienta
     .header{
         width: 100vw;
         height: 100vh;
-        background-image: url("../static/images/header-border(ipad).png");
+        background-image: url("../static/images/header-border(ipadB).png");
         background-size: 100vw 100vh;
     }
     
@@ -242,7 +242,7 @@ only screen and (max-device-width: 2436px) and (max-height: 1125px) and (orienta
         .header{
             width: 100vw;
             height: 100vh;
-            background-image: url("../static/images/header-border(ipad).png");
+            background-image: url("../static/images/header-border(ipadB).png");
             background-size: 100vw 100vh;
         }
 
@@ -284,7 +284,8 @@ only screen and (max-device-width: 2436px) and (max-height: 1125px) and (orienta
         .header{
             width: 100vw;
             height: 100vh;
-            background-image: url("../static/images/header-border(1080p)-min.png");
+            /* background-image: url("../static/images/header-border(1080p)-min.png"); */
+            background-image: url("../static/images/header-border(720pB).png");
             background-size: 100vw 100vh;
         }    
         .v-application .title{
@@ -351,7 +352,8 @@ only screen and (max-device-width: 2436px) and (max-height: 1125px) and (orienta
         .header{
             width: 100vw;
             height: 100vh;
-            background-image: url("../static/images/header-border(720p)-min.png");
+            /* background-image: url("../static/images/header-border(720p)-min.png"); */
+            background-image: url("../static/images/header-border(720pB).png");
             background-size: 100vw 100vh;
         }
         .v-application .title{        
@@ -392,7 +394,8 @@ only screen and (max-device-width: 2436px) and (max-height: 1125px) and (orienta
     .header{
         width: 100vw;
         height: 100vh;
-        background-image: url("../static/images/header-border(720p)-min.png");
+        /* background-image: url("../static/images/header-border(720p)-min.png"); */
+        background-image: url("../static/images/header-border(720pB).png");
         background-size: 100vw 100vh;
     }
     .v-application .title{        
@@ -428,7 +431,7 @@ only screen and (max-device-width: 2436px) and (max-height: 1125px) and (orienta
         .header{
             width: 100vw;
             height: 100vh;
-            background-image: url("../static/images/header-border(SD).png");
+            background-image: url("../static/images/header-border(SDB).png");
             background-size: 100vw 100vh;
         }
         .v-application .title{        
@@ -465,7 +468,8 @@ only screen and (max-device-width: 2436px) and (max-height: 1125px) and (orienta
         .header{
             width: 100vw;
             height: 100vh;
-            background-image: url("../static/images/header-border(720p)-min.png");
+            /* background-image: url("../static/images/header-border(720p)-min.png"); */
+            background-image: url("../static/images/header-border(720pB).png");
             background-size: 100vw 100vh;
         }
         .agave-container{
@@ -500,7 +504,7 @@ only screen and (max-device-width: 2436px) and (max-height: 1125px) and (orienta
     .header{
         width: 100vw;
         height: 100vh;
-        background-image: url("../static/images/header-borderV(720p).png");
+        background-image: url("../static/images/header-borderV(720pB).png");
         background-size: 100vw 140vh;  
         padding-top: 10vh !important;                                                          
     }
@@ -562,7 +566,7 @@ only screen and (max-device-width: 2436px) and (max-height: 1125px) and (orienta
    .header{
         width: 100vw;
         height: 100vh;
-        background-image: url("../static/images/header-borderV(720p).png");
+        background-image: url("../static/images/header-borderV(720pB).png");
         background-size: 100vw 140vh;  
         padding-top: 10vh !important;                                                          
     }
@@ -620,7 +624,7 @@ only screen and (max-device-width: 2436px) and (max-height: 1125px) and (orienta
     .header{
         width: 100vw;
         height: 100vh;
-        background-image: url("../static/images/header-borderV(720p).png");
+        background-image: url("../static/images/header-borderV(720pB).png");
         background-size: 100vw 140vh;  
         padding-top: 10vh !important;                                                          
     }
@@ -674,7 +678,7 @@ only screen and (max-device-width: 2436px) and (max-height: 1125px) and (orienta
     .header{
         width: 100vw;
         height: 100vh;
-        background-image: url("../static/images/header-borderV(720p).png");
+        background-image: url("../static/images/header-borderV(720pB).png");
         background-size: 100vw 140vh;  
         padding-top: 10vh !important;                                                          
     }
@@ -728,7 +732,7 @@ only screen and (max-device-width: 2436px) and (max-height: 1125px) and (orienta
     .header{
         width: 100vw;
         height: 100vh;
-        background-image: url("../static/images/header-borderV(720p).png");
+        background-image: url("../static/images/header-borderV(720pB).png");
         background-size: 100vw 140vh;  
         padding-top: 10vh !important;                                                          
     }
@@ -781,7 +785,7 @@ only screen and (max-device-width: 2436px) and (max-height: 1125px) and (orienta
         .header{
         width: 100vw;
         height: 100vh;
-        background-image: url("../static/images/header-borderV(720p).png");
+        background-image: url("../static/images/header-borderV(720pB).png");
         background-size: 100vw 140vh;  
         padding-top: 10vh !important;                                                          
     }
