@@ -18,6 +18,12 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Tequila Adelan. Sitio Oficial' },
+      { 'http-equiv':"cache-control", content='max-age=0'},
+      {'http-equiv':"cache-control", content="no-cache"}
+      {'http-equiv':"expires", content="0"}
+      {'http-equiv':"expires", content="Tue, 01 Jan 1980 1:00:0}"}
+      {'http-equiv':"pragma", content="no-cache"}
+
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
