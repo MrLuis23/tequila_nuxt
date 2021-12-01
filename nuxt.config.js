@@ -3,14 +3,14 @@ const pkg = require('./package')
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
-  // target: 'static',  
-  target: 'server',  
-  ssr: true,
+  target: 'static',  
+  // target: 'server',  
+  ssr: false,
   // serverMiddleware: ['~/server-middleware/override404'],
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - Adelan Tequila',
-    title: 'Adelan Tequiila',
+    title: 'Adelan Tequila',
     htmlAttrs: {
       lang: ['es', 'en']
     },

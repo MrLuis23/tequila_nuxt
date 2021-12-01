@@ -9,6 +9,7 @@
     <v-carousel-item
       v-for="(item,i) in items"
       :key="i"      
+      :src="item.src" 
       reverse-transition="fade-transition"
       transition="fade-transition" 
       eager
@@ -40,24 +41,25 @@
         
         items: [
           { 
-            src: require('../static/images/bg-dialog.jpg'),                       
-            // src: require('../static/images/sl1.jpg'),
-            labels: { lbl1: "Taste good, the way", lbl2: "Tequila should!" },
+            // src: require('../static/images/bg-dialog.jpg'),                       
+            src: require('../static/images/sl1.jpeg'),
+            labels: { lbl1: "Taste good, the way", lbl2: "It should!" },
             containerClass: 'lbl-container d-flex white--text flex-column slide-1',
             lblClass1: "lbl-1 slide-1 text-lg-h2 text-md-h2  d-flex ",
             lblClass2: "pr-lg-16 lbl-2 slide-1 text-lg-h1 text-capitalize d-flex"
             
           },
           {
-            src: require('../static/images/bg-dialog.jpg'),            
+            // src: require('../static/images/bg-dialog.jpg'),            
+            src: require('../static/images/sl2.jpeg'),
             labels: {lbl1: "Creado", lbl2: "para ti"},
             containerClass: 'lbl-container white--text d-flex slide-2',
             lblClass1: "slide-2 lbl-1  text-lg-h2 text-md-h2  d-flex text-capitalize",
             lblClass2: "pr-lg-16 slide-2 lbl-2 text-lg-h1 text-capitalize d-flex"            
           },
           {
-            // src: require('../static/images/sl2.jpg'),
-            src: require('../static/images/bg-dialog.jpg'),            
+            src: require('../static/images/sl1.jpeg'),
+            // src: require('../static/images/bg-dialog.jpg'),            
             labels: { lbl1: "Tradición", lbl2: "" },
             containerClass: 'lbl-container white--text d-flex flex-column align-items-start slide-3',
             // containerClass: 'lbl-container white--text d-flex flex-column text-h2 slide-2',
