@@ -73,6 +73,9 @@ export default {
                 case 1920:
                     w_img = 1920 / 5;
                 break;
+                default:
+                    w_img = 360 / 1.5;
+                break;
             }
             return w_img;
         }
